@@ -94,9 +94,9 @@ function shell(current: Entry | undefined, content: string): void {
     <header>
       <a class="brand" href="#/">clozecloud</a>
       <nav>
-        <a href="#/">Exercises</a>
-        <a href="#/progress">Progress</a>
-        ${last ? `<a href="${exHref(last, progress.last!.q)}">Continue</a>` : ''}
+        <a href="#/">Exercícios</a>
+        <a href="#/progress">Progresso</a>
+        ${last ? `<a href="${exHref(last, progress.last!.q)}">Continuar</a>` : ''}
       </nav>
     </header>
     <div class="layout">
@@ -117,8 +117,8 @@ function homeView(): void {
   shell(
     undefined,
     entries.length
-      ? `<h1>Exercises</h1><table><thead><tr><th>User</th><th>Path</th><th>Title</th><th>Questions</th><th>Correct</th><th>Updated</th></tr></thead><tbody>${rows}</tbody></table>`
-      : '<h1>Exercises</h1><p>No exercises published yet.</p>',
+      ? `<h1>Exercícios</h1><table><thead><tr><th>Utilizador</th><th>Caminho</th><th>Título</th><th>Questões</th><th>Corretas</th><th>Atualizado</th></tr></thead><tbody>${rows}</tbody></table>`
+      : '<h1>Exercícios</h1><p>Ainda não há exercícios publicados.</p>',
   );
 }
 
@@ -137,15 +137,15 @@ function progressView(): void {
   const correct = entries.reduce((n, e) => n + stats(e).correct, 0);
   shell(
     undefined,
-    `<h1>Progress</h1>
-     <p>${correct} of ${total} questions answered correctly.</p>
+    `<h1>Progresso</h1>
+     <p>${correct} de ${total} questões respondidas corretamente.</p>
      <p class="actions">
-       <button id="export">Export JSON</button>
-       <label class="button">Import JSON<input id="import" type="file" accept="application/json,.json" hidden></label>
-       <button id="reset" class="danger">Reset</button>
+       <button id="export">Exportar JSON</button>
+       <label class="button">Importar JSON<input id="import" type="file" accept="application/json,.json" hidden></label>
+       <button id="reset" class="danger">Apagar progresso</button>
      </p>
      <p id="msg" role="status"></p>
-     <table><thead><tr><th>Exercise</th><th>Answered</th><th>Correct</th><th>Questions</th></tr></thead><tbody>${rows}</tbody></table>`,
+     <table><thead><tr><th>Exercício</th><th>Respondidas</th><th>Corretas</th><th>Questões</th></tr></thead><tbody>${rows}</tbody></table>`,
   );
   const msg = document.getElementById('msg')!;
   document.getElementById('export')!.onclick = () => {
@@ -164,13 +164,13 @@ function progressView(): void {
       const n = store.importJson(progress, await file.text());
       progress = store.load();
       route();
-      document.getElementById('msg')!.textContent = `Imported ${n} answer(s).`;
+      document.getElementById('msg')!.textContent = `${n} resposta(s) importada(s).`;
     } catch (err) {
-      msg.textContent = `Import failed: ${(err as Error).message}`;
+      msg.textContent = `Falha na importação: ${(err as Error).message}`;
     }
   };
   document.getElementById('reset')!.onclick = () => {
-    if (confirm('Delete all saved progress on this device?')) {
+    if (confirm('Apagar todo o progresso guardado neste dispositivo?')) {
       progress = store.reset();
       route();
     }
@@ -199,21 +199,21 @@ async function exerciseView(id: string, qIndex: number): Promise<void> {
   const idx = entries.findIndex((e) => idOf(e) === id);
   const entry = entries[idx];
   if (!entry) {
-    shell(undefined, `<p>Exercise not found: ${esc(id)}</p>`);
+    shell(undefined, `<p>Exercício não encontrado: ${esc(id)}</p>`);
     return;
   }
-  shell(entry, '<p>Loading…</p>');
+  shell(entry, '<p>A carregar…</p>');
   let quiz: Quiz;
   try {
     quiz = await loadQuiz(entry);
   } catch (err) {
-    document.querySelector('main')!.innerHTML = `<p>Could not load exercise: ${esc((err as Error).message)}</p>`;
+    document.querySelector('main')!.innerHTML = `<p>Não foi possível carregar o exercício: ${esc((err as Error).message)}</p>`;
     return;
   }
   const q = Math.min(Math.max(qIndex, 0), quiz.questions.length - 1);
   const question = quiz.questions[q];
   if (!question) {
-    document.querySelector('main')!.innerHTML = '<p>This exercise has no questions.</p>';
+    document.querySelector('main')!.innerHTML = '<p>Este exercício não tem questões.</p>';
     return;
   }
   store.setLast(progress, id, q);
@@ -238,19 +238,19 @@ async function exerciseView(id: string, qIndex: number): Promise<void> {
     <div class="jump">${jump}</div>
     <form id="qform"><div id="qbody"></div>
       <p class="actions">
-        <button type="submit">Check</button>
-        <button type="button" id="solution">Show solution</button>
+        <button type="submit">Verificar</button>
+        <button type="button" id="solution">Mostrar solução</button>
         <span id="score"></span>
       </p>
     </form>
     <nav class="pager">
-      <a ${go(prev)}>← Previous</a>
-      <a ${go(next)}>Next →</a>
+      <a ${go(prev)}>← Anterior</a>
+      <a ${go(next)}>Seguinte →</a>
       <span class="sep"></span>
-      <a ${prevEx ? `href="${exHref(prevEx)}"` : 'class="disabled"'}>⇤ Previous exercise</a>
-      <a ${nextEx ? `href="${exHref(nextEx)}"` : 'class="disabled"'}>Next exercise ⇥</a>
-      <a ${go(unanswered)}>Next unanswered</a>
-      <a href="#" id="random">Random</a>
+      <a ${prevEx ? `href="${exHref(prevEx)}"` : 'class="disabled"'}>⇤ Exercício anterior</a>
+      <a ${nextEx ? `href="${exHref(nextEx)}"` : 'class="disabled"'}>Exercício seguinte ⇥</a>
+      <a ${go(unanswered)}>Próxima por responder</a>
+      <a href="#" id="random">Aleatória</a>
     </nav>`;
 
   const body = document.getElementById('qbody')!;
@@ -259,7 +259,7 @@ async function exerciseView(id: string, qIndex: number): Promise<void> {
   const show = (answers: string[], graded: boolean) => {
     const result = graded ? gradeAnswer(question, answers) : undefined;
     body.innerHTML = renderQuestion(question, { answers, result });
-    if (result) scoreEl.textContent = result.correct ? '✔ Correct' : `Score: ${Math.round(result.score * 100)}%`;
+    if (result) scoreEl.textContent = result.correct ? '✔ Correto' : `Pontuação: ${Math.round(result.score * 100)}%`;
     return result;
   };
   show(saved?.answers ?? [], !!saved);
@@ -318,7 +318,7 @@ async function main() {
     const r = await fetch(`${BASE}index.json`, { cache: 'no-cache' });
     entries = ((await r.json()) as { exercises: Entry[] }).exercises;
   } catch {
-    app.textContent = 'Could not load index.json';
+    app.textContent = 'Não foi possível carregar index.json';
     return;
   }
   window.addEventListener('hashchange', route);
