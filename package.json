@@ -1,0 +1,22 @@
+{
+  "name": "clozecloud",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*", "site"],
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p packages/clozelib --noEmit && tsc -p site --noEmit && tsc -p scripts --noEmit",
+    "build:lib": "npm run build -w clozelib",
+    "build:index": "tsx scripts/build-index.ts",
+    "build:site": "npm run build -w site",
+    "build": "npm run build:lib && npm run build:index && npm run build:site",
+    "dev": "npm run build:index && npm run dev -w site"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  }
+}
