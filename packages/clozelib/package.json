@@ -1,0 +1,21 @@
+{
+  "name": "clozelib",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Parse, render and grade Moodle Cloze questions (browser and Node/Electron)",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "katex": "^0.16.11"
+  },
+  "devDependencies": {
+    "@types/katex": "^0.16.7"
+  }
+}

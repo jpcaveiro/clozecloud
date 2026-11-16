@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/mne/numcap5</text>
+    </category>
+  </question>
+
+<!-- Synthetic sample in the shape of pyequa/Moodle exports; replace with real studygraph files when available. -->
+  <question type="cloze">
+    <name>
+      <text>Sistema 2x2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Considere o sistema \(\begin{cases} x + y = 3 \\ x - y = 1 \end{cases}\).</p>
+<p>Então $x =$ {1:NUMERICAL:=2:0.01#Certo~%50%2.5:0.6#Quase} e $y =$ {1:NUMERICAL:=1:0.01#Certo~*#Verifique a segunda equação}.</p>
+<p>O sistema é {1:MULTICHOICE:=possível e determinado#Exato~possível e indeterminado#Não~impossível} e a solução chama-se {2:SHORTANSWER:=solução*#Correto~%50%raiz#Meio certo}.</p>
+<p>Escolha: {1:MULTICHOICE_V:A\} errada~=B certa~C}</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[<p>Somando: $2x = 4$.</p>]]></text>
+    </generalfeedback>
+    <defaultgrade>5.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+  </question>
+
+  <question type="cloze">
+    <name>
+      <text>Derivada &amp; limite</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;p&gt;$\frac{d}{dx} x^2 =$ {1:SHORTANSWER_C:=2x~=2*x}&lt;/p&gt;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+  </question>
+</quiz>
