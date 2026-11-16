@@ -39,6 +39,12 @@ button.danger { color: var(--bad); }
 .clz-correct .clz-status { color: var(--ok); }
 .clz-partial .clz-status { color: var(--part); }
 .clz-wrong .clz-status { color: var(--bad); }
+.clz-field:has(.clz-vertical) { display: block; margin: .3rem 0; }
+.clz-field:has(.clz-vertical) .clz-status { display: block; margin: .2rem 0 0; }
+.clz-correct .clz-choices { background: #dafbe1; border: 2px solid var(--ok); }
+.clz-partial .clz-choices { background: #fff4e0; border: 2px solid var(--part); }
+.clz-wrong .clz-choices { background: #ffebe9; border: 2px solid var(--bad); }
+.clz-choices { display: inline-block; padding: .2rem .6rem; border-radius: 6px; }
 .explain { color: var(--muted); font-size: .9rem; }
 .explain dt { font-weight: 600; color: var(--fg); margin-top: .4rem; }
 .explain dd { margin: 0 0 0 1rem; }
