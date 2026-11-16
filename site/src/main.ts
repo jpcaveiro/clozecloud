@@ -144,6 +144,15 @@ function progressView(): void {
        <button id="reset" class="danger">Apagar progresso</button>
      </p>
      <p id="msg" role="status"></p>
+     <dl class="explain">
+       <dt>Exportar JSON</dt>
+       <dd>Descarrega um ficheiro com todas as tuas respostas e pontuações. Serve de cópia de segurança ou para levares o progresso para outro browser ou computador.</dd>
+       <dt>Importar JSON</dt>
+       <dd>Carrega um ficheiro exportado antes e junta-o ao progresso atual, mantendo a resposta mais recente de cada questão.</dd>
+       <dt>Apagar progresso</dt>
+       <dd>Remove todas as respostas guardadas neste browser (pede confirmação). Exporta primeiro se quiseres guardar uma cópia.</dd>
+     </dl>
+     <p class="explain">O progresso fica guardado apenas neste browser e dispositivo; ninguém o vê a não ser que partilhes o ficheiro exportado. Na tabela, cada número é uma questão: verde = correta, vermelho = errada, cinzento = por responder.</p>
      <table><thead><tr><th>Exercício</th><th>Respondidas</th><th>Corretas</th><th>Questões</th></tr></thead><tbody>${rows}</tbody></table>`,
   );
   const msg = document.getElementById('msg')!;

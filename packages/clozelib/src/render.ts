@@ -66,8 +66,10 @@ function renderField(f: ClozeField, value: string, r: FieldResult | undefined, d
     }"${dis}>`;
   }
   const fb = r?.feedback ? `<span class="clz-fb">${renderMath(r.feedback)}</span>` : '';
+  const label = r && !r.answered ? '' : r?.correct ? '✔ Correto' : r && r.fraction > 0 ? '◐ Parcialmente correto' : r ? '✘ Errado' : '';
+  const status = label ? `<span class="clz-status">${label}</span>` : '';
   const solution = r && !r.correct ? `<span class="clz-expected" hidden>${renderMath(esc(r.expected))}</span>` : '';
-  return `<span class="clz-field${state}">${control}${fb}${solution}</span>`;
+  return `<span class="clz-field${state}">${control}${status}${fb}${solution}</span>`;
 }
 
 /** Render a question to an HTML string with KaTeX math and form controls (`data-field` = field index). */

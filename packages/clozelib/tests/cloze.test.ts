@@ -94,4 +94,9 @@ describe('renderQuestion', () => {
     expect(html).toContain('clz-correct');
     expect(html).toContain('clz-general');
   });
+
+  it('shows a status label for radio (vertical) multichoice fields', () => {
+    const a = ['', '', '', '', 'B certa'];
+    expect(renderQuestion(q1, { answers: a, result: gradeAnswer(q1, a) })).toContain('✔ Correto');
+  });
 });
