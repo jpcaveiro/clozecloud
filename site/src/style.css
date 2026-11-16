@@ -35,6 +35,13 @@ button.danger { color: var(--bad); }
 .clz-partial input, .clz-partial select { border: 2px solid var(--part); }
 .clz-wrong input, .clz-wrong select { border: 2px solid var(--bad); }
 .clz-fb { margin-left: .4rem; font-size: .85em; color: var(--muted); }
+.clz-status { margin-left: .5rem; font-size: .85em; font-weight: 600; }
+.clz-correct .clz-status { color: var(--ok); }
+.clz-partial .clz-status { color: var(--part); }
+.clz-wrong .clz-status { color: var(--bad); }
+.explain { color: var(--muted); font-size: .9rem; }
+.explain dt { font-weight: 600; color: var(--fg); margin-top: .4rem; }
+.explain dd { margin: 0 0 0 1rem; }
 .clz-expected { margin-left: .4rem; font-size: .85em; color: var(--ok); }
 .clz-expected::before { content: "→ "; }
 .clz-general { margin-top: 1rem; padding: .5rem 1rem; background: #f6f8fa; border-left: 3px solid var(--accent); }
