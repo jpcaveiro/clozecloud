@@ -10,8 +10,7 @@ const dataDir = join(root, 'data');
 const outDir = join(root, 'site', 'public');
 
 export interface IndexEntry {
-  tag: string;
-  /** Path relative to data/<tag>/, with forward slashes. */
+  /** Path relative to data/, with forward slashes. */
   path: string;
   title: string;
   questions: number;
@@ -39,29 +38,24 @@ function modifiedDate(file: string): string {
 
 const entries: IndexEntry[] = [];
 if (existsSync(dataDir)) {
-  for (const tagEntry of readdirSync(dataDir, { withFileTypes: true })) {
-    if (!tagEntry.isDirectory() || tagEntry.name.startsWith('.')) continue;
-    const tagDir = join(dataDir, tagEntry.name);
-    for (const file of walk(tagDir)) {
-      const rel = relative(tagDir, file).split('\\').join('/');
-      const content = readFileSync(file);
-      try {
-        const quiz = parseQuiz(content.toString('utf8'));
-        entries.push({
-          tag: tagEntry.name,
-          path: rel,
-          title: quiz.questions[0]?.name || rel.replace(/\.xml$/i, '').split('/').pop()!,
-          questions: quiz.questions.length,
-          modified: modifiedDate(file),
-          hash: createHash('sha256').update(content).digest('hex'),
-        });
-      } catch (err) {
-        console.warn(`skipping ${tagEntry.name}/${rel}: ${(err as Error).message}`);
-      }
+  for (const file of walk(dataDir)) {
+    const rel = relative(dataDir, file).split('\\').join('/');
+    const content = readFileSync(file);
+    try {
+      const quiz = parseQuiz(content.toString('utf8'));
+      entries.push({
+        path: rel,
+        title: quiz.questions[0]?.name || rel.replace(/\.xml$/i, '').split('/').pop()!,
+        questions: quiz.questions.length,
+        modified: modifiedDate(file),
+        hash: createHash('sha256').update(content).digest('hex'),
+      });
+    } catch (err) {
+      console.warn(`skipping ${rel}: ${(err as Error).message}`);
     }
   }
 }
-entries.sort((a, b) => (a.tag + '/' + a.path).localeCompare(b.tag + '/' + b.path));
+entries.sort((a, b) => a.path.localeCompare(b.path));
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, 'index.json'), JSON.stringify({ generated: new Date().toISOString(), exercises: entries }, null, 2));

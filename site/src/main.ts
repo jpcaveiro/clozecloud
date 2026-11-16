@@ -5,7 +5,6 @@ import type { Quiz } from 'clozelib';
 import * as store from './store';
 
 interface Entry {
-  tag: string;
   path: string;
   title: string;
   questions: number;
@@ -20,7 +19,7 @@ let progress = store.load();
 const quizCache = new Map<string, Promise<Quiz>>();
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-const idOf = (e: Entry) => `${e.tag}/${e.path}`;
+const idOf = (e: Entry) => e.path;
 const encPath = (s: string) => s.split('/').map(encodeURIComponent).join('/');
 const exHref = (e: Entry, q = 0) => `#/ex/${encPath(idOf(e))}/${q}`;
 
@@ -61,7 +60,7 @@ function buildTree(list: Entry[]): Dir {
   const root: Dir = { dirs: new Map(), files: [] };
   for (const e of list) {
     let d = root;
-    for (const seg of [e.tag, ...e.path.split('/').slice(0, -1)]) {
+    for (const seg of e.path.split('/').slice(0, -1)) {
       if (!d.dirs.has(seg)) d.dirs.set(seg, { dirs: new Map(), files: [] });
       d = d.dirs.get(seg)!;
     }
@@ -111,13 +110,13 @@ function homeView(): void {
   const rows = entries
     .map((e) => {
       const s = stats(e);
-      return `<tr><td>${esc(e.tag)}</td><td><a href="${exHref(e)}">${esc(e.path)}</a></td><td>${esc(e.title)}</td><td>${e.questions}</td><td>${s.correct}/${e.questions}</td><td>${esc(e.modified.slice(0, 10))}</td></tr>`;
+      return `<tr><td><a href="${exHref(e)}">${esc(e.path)}</a></td><td>${esc(e.title)}</td><td>${e.questions}</td><td>${s.correct}/${e.questions}</td><td>${esc(e.modified.slice(0, 10))}</td></tr>`;
     })
     .join('');
   shell(
     undefined,
     entries.length
-      ? `<h1>Exercícios</h1><table><thead><tr><th>Utilizador</th><th>Caminho</th><th>Título</th><th>Questões</th><th>Corretas</th><th>Atualizado</th></tr></thead><tbody>${rows}</tbody></table>`
+      ? `<h1>Exercícios</h1><table><thead><tr><th>Caminho</th><th>Título</th><th>Questões</th><th>Corretas</th><th>Atualizado</th></tr></thead><tbody>${rows}</tbody></table>`
       : '<h1>Exercícios</h1><p>Ainda não há exercícios publicados.</p>',
   );
 }
