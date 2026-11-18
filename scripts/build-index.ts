@@ -45,7 +45,7 @@ if (existsSync(dataDir)) {
       const quiz = parseQuiz(content.toString('utf8'));
       entries.push({
         path: rel,
-        title: quiz.questions[0]?.name || rel.replace(/\.xml$/i, '').split('/').pop()!,
+        title: rel.replace(/\.xml$/i, '').split('/').pop()!,
         questions: quiz.questions.length,
         modified: modifiedDate(file),
         hash: createHash('sha256').update(content).digest('hex'),
