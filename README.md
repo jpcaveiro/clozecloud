@@ -11,3 +11,14 @@ Static site and TypeScript library to study Moodle Cloze exercises exported from
 
 ## Commands
 `npm install`, `npm test`, `npm run dev` (index + dev server), `npm run build`.
+
+
+## create website from bash
+
+```
+git clone https://github.com/jpcaveiro/clozecloud
+cd clozecloud
+npm ci
+npm run build:index
+npm run build:site
+```
