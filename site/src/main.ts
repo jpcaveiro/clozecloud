@@ -15,6 +15,7 @@ interface Entry {
 const BASE = import.meta.env.BASE_URL;
 const app = document.getElementById('app')!;
 let entries: Entry[] = [];
+let titles: Record<string, string> = {};
 let progress = store.load();
 const quizCache = new Map<string, Promise<Quiz>>();
 
@@ -69,11 +70,12 @@ function buildTree(list: Entry[]): Dir {
   return root;
 }
 
-function renderDir(d: Dir, current: Entry | undefined, depth = 0): string {
+function renderDir(d: Dir, current: Entry | undefined, depth = 0, prefix = ''): string {
   let html = '';
   for (const [name, sub] of d.dirs) {
     const open = depth === 0 || (current && sub.files.concat(...flatten(sub)).includes(current)) ? ' open' : '';
-    html += `<details${open}><summary>${esc(name)}</summary>${renderDir(sub, current, depth + 1)}</details>`;
+    const path = prefix + name;
+    html += `<details${open}><summary>${esc(titles[path] || name)}</summary>${renderDir(sub, current, depth + 1, path + '/')}</details>`;
   }
   for (const e of d.files) {
     const s = stats(e);
@@ -85,6 +87,12 @@ function renderDir(d: Dir, current: Entry | undefined, depth = 0): string {
 
 function flatten(d: Dir): Entry[] {
   return [...d.files, ...[...d.dirs.values()].flatMap(flatten)];
+}
+
+/** Friendly breadcrumb for an exercise: folder names from data/index.yaml, then the exercise title. */
+function crumbOf(e: Entry): string {
+  const segs = e.path.split('/').slice(0, -1);
+  return [...segs.map((s, i) => titles[segs.slice(0, i + 1).join('/')] || s), e.title].join(' › ');
 }
 
 function shell(current: Entry | undefined, content: string): void {
@@ -110,13 +118,13 @@ function homeView(): void {
   const rows = entries
     .map((e) => {
       const s = stats(e);
-      return `<tr><td><a href="${exHref(e)}">${esc(e.path)}</a></td><td>${esc(e.title)}</td><td>${e.questions}</td><td>${s.correct}/${e.questions}</td><td>${esc(e.modified.slice(0, 10))}</td></tr>`;
+      return `<tr><td><a href="${exHref(e)}">${esc(crumbOf(e))}</a></td><td>${e.questions}</td><td>${s.correct}/${e.questions}</td><td>${esc(e.modified.slice(0, 10))}</td></tr>`;
     })
     .join('');
   shell(
     undefined,
     entries.length
-      ? `<h1>Exercícios</h1><table><thead><tr><th>Caminho</th><th>Título</th><th>Questões</th><th>Corretas</th><th>Atualizado</th></tr></thead><tbody>${rows}</tbody></table>`
+      ? `<h1>Exercícios</h1><table><thead><tr><th>Exercício</th><th>Questões</th><th>Corretas</th><th>Atualizado</th></tr></thead><tbody>${rows}</tbody></table>`
       : '<h1>Exercícios</h1><p>Ainda não há exercícios publicados.</p>',
   );
 }
@@ -129,7 +137,7 @@ function progressView(): void {
         return `<a class="dot ${s ? (s.correct ? 'ok' : 'bad') : ''}" href="${exHref(e, q)}" title="Q${q + 1}">${q + 1}</a>`;
       }).join('');
       const s = stats(e);
-      return `<tr><td>${esc(idOf(e))}</td><td>${s.answered}/${e.questions}</td><td>${s.correct}</td><td>${dots}</td></tr>`;
+      return `<tr><td>${esc(crumbOf(e))}</td><td>${s.answered}/${e.questions}</td><td>${s.correct}</td><td>${dots}</td></tr>`;
     })
     .join('');
   const total = entries.reduce((n, e) => n + e.questions, 0);
@@ -241,7 +249,7 @@ async function exerciseView(id: string, qIndex: number): Promise<void> {
 
   const main = document.querySelector('main')!;
   main.innerHTML = `
-    <p class="crumb">${esc(idOf(entry))}</p>
+    <p class="crumb">${esc(crumbOf(entry))}</p>
     <h1>${esc(entry.title)} <small>${q + 1} / ${quiz.questions.length}</small></h1>
     <div class="jump">${jump}</div>
     <form id="qform"><div id="qbody"></div>
@@ -324,7 +332,9 @@ function route(): void {
 async function main() {
   try {
     const r = await fetch(`${BASE}index.json`, { cache: 'no-cache' });
-    entries = ((await r.json()) as { exercises: Entry[] }).exercises;
+    const idx = (await r.json()) as { exercises: Entry[]; titles?: Record<string, string> };
+    entries = idx.exercises;
+    titles = idx.titles ?? {};
   } catch {
     app.textContent = 'Não foi possível carregar index.json';
     return;
