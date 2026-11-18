@@ -242,7 +242,7 @@ async function exerciseView(id: string, qIndex: number): Promise<void> {
   const main = document.querySelector('main')!;
   main.innerHTML = `
     <p class="crumb">${esc(idOf(entry))}</p>
-    <h1>${esc(question.name || entry.title)} <small>${q + 1} / ${quiz.questions.length}</small></h1>
+    <h1>${esc(entry.title)} <small>${q + 1} / ${quiz.questions.length}</small></h1>
     <div class="jump">${jump}</div>
     <form id="qform"><div id="qbody"></div>
       <p class="actions">
