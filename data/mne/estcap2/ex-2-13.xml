@@ -1,0 +1,5884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 001 (Peq1, Peq0, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 001 (data row is 01) de 001 (Peq1, Peq0, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 002 (Peq1, Peq0, varX, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 002 (data row is 02) de 002 (Peq1, Peq0, varX, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 003 (Peq1, Peq0, varX, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 003 (data row is 03) de 003 (Peq1, Peq0, varX, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.15</strong></li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 004 (Peq1, Peq0, varX, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 004 (data row is 04) de 004 (Peq1, Peq0, varX, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 005 (Peq1, varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 005 (data row is 05) de 005 (Peq1, varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 006 (Peq0, varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 006 (data row is 06) de 006 (Peq0, varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 007 (Peq1, Peq0, varX, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 007 (data row is 07) de 007 (Peq1, Peq0, varX, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 008 (Peq1, Peq0, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 008 (data row is 01) de 008 (Peq1, Peq0, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 009 (Peq1, Peq0, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 009 (data row is 02) de 009 (Peq1, Peq0, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 010 (Peq1, Peq0, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 010 (data row is 03) de 010 (Peq1, Peq0, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.15</strong></li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 011 (Peq1, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 011 (data row is 04) de 011 (Peq1, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 012 (Peq0, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 012 (data row is 05) de 012 (Peq0, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 013 (Peq1, Peq0, varX, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 013 (data row is 06) de 013 (Peq1, Peq0, varX, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 014 (Peq1, Peq0, varX, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 014 (data row is 07) de 014 (Peq1, Peq0, varX, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 015 (Peq1, Peq0, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 015 (data row is 01) de 015 (Peq1, Peq0, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 016 (Peq1, varX, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 016 (data row is 02) de 016 (Peq1, varX, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 017 (Peq0, varX, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 017 (data row is 03) de 017 (Peq0, varX, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.15</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 018 (Peq1, Peq0, varX, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 018 (data row is 04) de 018 (Peq1, Peq0, varX, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 019 (Peq1, Peq0, varX, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 019 (data row is 05) de 019 (Peq1, Peq0, varX, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 020 (Peq1, varX, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 020 (data row is 06) de 020 (Peq1, varX, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 021 (Peq1, varX, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 021 (data row is 07) de 021 (Peq1, varX, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 022 (Peq0, varX, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 022 (data row is 01) de 022 (Peq0, varX, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 023 (Peq0, varX, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 023 (data row is 02) de 023 (Peq0, varX, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 024 (varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 024 (data row is 03) de 024 (varX, valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 025 (Peq1, Peq0, varX, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 025 (data row is 04) de 025 (Peq1, Peq0, varX, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 026 (Peq1, Peq0, varX, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 026 (data row is 05) de 026 (Peq1, Peq0, varX, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 027 (Peq1, varX, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 027 (data row is 06) de 027 (Peq1, varX, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 028 (Peq0, varX, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 028 (data row is 07) de 028 (Peq0, varX, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 029 (Peq1, Peq0, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 029 (data row is 01) de 029 (Peq1, Peq0, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 030 (Peq1, Peq0, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 030 (data row is 02) de 030 (Peq1, Peq0, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 031 (Peq1, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 031 (data row is 03) de 031 (Peq1, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 032 (Peq0, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 032 (data row is 04) de 032 (Peq0, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 033 (Peq1, Peq0, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 033 (data row is 05) de 033 (Peq1, Peq0, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 034 (Peq1, Peq0, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 034 (data row is 06) de 034 (Peq1, Peq0, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 035 (Peq1, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 035 (data row is 07) de 035 (Peq1, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 036 (Peq1, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 036 (data row is 01) de 036 (Peq1, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 037 (Peq0, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 037 (data row is 02) de 037 (Peq0, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 038 (Peq0, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 038 (data row is 03) de 038 (Peq0, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.15</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 039 (valor_a, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 039 (data row is 04) de 039 (valor_a, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 040 (Peq1, Peq0, varX, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 040 (data row is 05) de 040 (Peq1, Peq0, varX, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 041 (Peq1, Peq0, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 041 (data row is 06) de 041 (Peq1, Peq0, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 042 (Peq1, Peq0, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 042 (data row is 07) de 042 (Peq1, Peq0, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 043 (Peq1, varX, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 043 (data row is 01) de 043 (Peq1, varX, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 044 (Peq1, varX, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 044 (data row is 02) de 044 (Peq1, varX, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 045 (Peq1, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 045 (data row is 03) de 045 (Peq1, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 046 (Peq0, varX, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 046 (data row is 04) de 046 (Peq0, varX, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 047 (Peq0, varX, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 047 (data row is 05) de 047 (Peq0, varX, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 048 (Peq0, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 048 (data row is 06) de 048 (Peq0, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 049 (varX, valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 049 (data row is 07) de 049 (varX, valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 050 (Peq1, Peq0, varX, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 050 (data row is 01) de 050 (Peq1, Peq0, varX, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 051 (Peq1, Peq0, varX, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 051 (data row is 02) de 051 (Peq1, Peq0, varX, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 052 (Peq1, varX, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 052 (data row is 03) de 052 (Peq1, varX, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 053 (Peq1, varX, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 053 (data row is 04) de 053 (Peq1, varX, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 054 (Peq0, varX, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 054 (data row is 05) de 054 (Peq0, varX, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 055 (Peq0, varX, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 055 (data row is 06) de 055 (Peq0, varX, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 056 (varX, valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 056 (data row is 07) de 056 (varX, valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 057 (varX, valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 057 (data row is 01) de 057 (varX, valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 058 (Peq1, Peq0, varX, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 058 (data row is 02) de 058 (Peq1, Peq0, varX, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 059 (Peq1, varX, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 059 (data row is 03) de 059 (Peq1, varX, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 060 (Peq1, varX, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 060 (data row is 04) de 060 (Peq1, varX, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 061 (Peq0, varX, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 061 (data row is 05) de 061 (Peq0, varX, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 062 (Peq0, varX, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 062 (data row is 06) de 062 (Peq0, varX, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 063 (varX, Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 063 (data row is 07) de 063 (varX, Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 064 (Peq1, Peq0, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 064 (data row is 01) de 064 (Peq1, Peq0, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 065 (Peq1, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 065 (data row is 02) de 065 (Peq1, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 066 (Peq1, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 066 (data row is 03) de 066 (Peq1, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 067 (Peq0, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 067 (data row is 04) de 067 (Peq0, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 068 (Peq0, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 068 (data row is 05) de 068 (Peq0, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 069 (valor_a, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 069 (data row is 06) de 069 (valor_a, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 070 (Peq1, Peq0, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 070 (data row is 07) de 070 (Peq1, Peq0, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 071 (Peq1, Peq0, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 071 (data row is 01) de 071 (Peq1, Peq0, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 072 (Peq1, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 072 (data row is 02) de 072 (Peq1, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 073 (Peq1, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 073 (data row is 03) de 073 (Peq1, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 074 (Peq0, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 074 (data row is 04) de 074 (Peq0, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 075 (Peq0, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 075 (data row is 05) de 075 (Peq0, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 076 (valor_a, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 076 (data row is 06) de 076 (valor_a, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 077 (valor_a, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 077 (data row is 07) de 077 (valor_a, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 078 (Peq1, Peq0, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 078 (data row is 01) de 078 (Peq1, Peq0, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 079 (Peq1, varX, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 079 (data row is 02) de 079 (Peq1, varX, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.3</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 080 (Peq1, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 080 (data row is 03) de 080 (Peq1, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 081 (Peq1, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 081 (data row is 04) de 081 (Peq1, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 082 (Peq0, varX, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 082 (data row is 05) de 082 (Peq0, varX, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.45</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 083 (Peq0, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 083 (data row is 06) de 083 (Peq0, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 084 (Peq0, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 084 (data row is 07) de 084 (Peq0, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 085 (varX, valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 085 (data row is 01) de 085 (varX, valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 086 (varX, valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 086 (data row is 02) de 086 (varX, valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 087 (Pbt2, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 087 (data row is 03) de 087 (Pbt2, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 088 (Peq1, Peq0, varX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 088 (data row is 04) de 088 (Peq1, Peq0, varX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 089 (Peq1, varX, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 089 (data row is 05) de 089 (Peq1, varX, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 090 (Peq1, varX, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 090 (data row is 06) de 090 (Peq1, varX, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 091 (Peq0, varX, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 091 (data row is 07) de 091 (Peq0, varX, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.35</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 092 (Peq0, varX, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 092 (data row is 01) de 092 (Peq0, varX, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = <strong>2.3275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 093 (varX, valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 093 (data row is 02) de 093 (varX, valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = <strong>2.41</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 094 (varX, Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 094 (data row is 03) de 094 (varX, Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 095 (Peq1, varX, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 095 (data row is 04) de 095 (Peq1, varX, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.2</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.2</strong> e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 096 (Peq0, varX, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 096 (data row is 05) de 096 (Peq0, varX, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 097 (varX, Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 097 (data row is 06) de 097 (varX, Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = <strong>2.69</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 098 (varX, Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 098 (data row is 07) de 098 (varX, Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.05</strong> e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 099 (Peq1, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 099 (data row is 01) de 099 (Peq1, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.25</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.35</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 100 (Peq0, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 100 (data row is 02) de 100 (Peq0, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.3</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 101 (valor_a, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 101 (data row is 03) de 101 (valor_a, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 102 (valor_a, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 102 (data row is 04) de 102 (valor_a, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.4</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.56:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 103 (Peq1, Peq0)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 103 (data row is 05) de 103 (Peq1, Peq0)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.25</strong></li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.15:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 104 (Peq1, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 104 (data row is 06) de 104 (Peq1, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.1</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 105 (Peq1, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 105 (data row is 07) de 105 (Peq1, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 106 (Peq0, Pbt2)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 106 (data row is 01) de 106 (Peq0, Pbt2)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 107 (Peq0, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 107 (data row is 02) de 107 (Peq0, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.1</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.3:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 108 (valor_a, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 108 (data row is 03) de 108 (valor_a, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.35</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.25</strong> e \(V[X]\) = {:NUMERICAL:%100%2.4875:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 109 (Pbt2, Pbt1)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 109 (data row is 04) de 109 (Pbt2, Pbt1)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25~%100%0.3~%100%0.35~%100%0.4~%100%0.45~%100%0.5~%100%0.55} (more than one solution; choose one) </li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05~%100%0.1~%100%0.15~%100%0.2~%100%0.25~%100%0.3~%100%0.35} (more than one solution; choose one) </li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35~%100%0.3~%100%0.25~%100%0.2~%100%0.15~%100%0.1~%100%0.05} (more than one solution; choose one) </li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35~%100%1.3~%100%1.25~%100%1.2~%100%1.15~%100%1.1~%100%1.05} (more than one solution; choose one)  e \(V[X]\) = {:NUMERICAL:%100%2.3275~%100%2.41~%100%2.4875~%100%2.56~%100%2.6275~%100%2.69~%100%2.7475} (more than one solution; choose one) .</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 110 (Peq1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 110 (data row is 05) de 110 (Peq1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.15</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = {:NUMERICAL:%100%2.6275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 111 (Peq0, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 111 (data row is 06) de 111 (Peq0, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.5:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.3</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.1</strong> e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 112 (varX, valor_a)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 112 (data row is 07) de 112 (varX, valor_a)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.55</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = <strong>2.7475</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 113 (Pbt2, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 113 (data row is 01) de 113 (Pbt2, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.05:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = <strong>0.8</strong></li>
+</ul>
+<p>\(E[X]\) = <strong>1.35</strong> e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 114 (Pbt1, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 114 (data row is 02) de 114 (Pbt1, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = <strong>0.4</strong></li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.3</strong> e \(V[X]\) = {:NUMERICAL:%100%2.41:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 115 (Peq1, varX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 115 (data row is 03) de 115 (Peq1, varX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.25</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.25:0.005} e \(V[X]\) = <strong>2.4875</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 116 (Peq0, varX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 116 (data row is 04) de 116 (Peq0, varX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.2</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.2:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.2:0.005} e \(V[X]\) = <strong>2.56</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 117 (varX, expX)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 117 (data row is 05) de 117 (varX, expX)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.45:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.15:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = <strong>1.15</strong> e \(V[X]\) = <strong>2.6275</strong>.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 118 (valor_a,)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 118 (data row is 06) de 118 (valor_a,)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = <strong>0.5</strong></li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.3:0.005}</li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.1:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.1:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.69:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 119 (Peq1,)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 119 (data row is 07) de 119 (Peq1,)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.55:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=1)\) = <strong>0.05</strong></li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.05:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.7475:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+<question type="category">
+    <category>
+        <text>$course$/top/imports/mne/estcap2/ex-2-13/Random Question 120 (Peq0,)</text>
+    </category>
+    <info format="html">
+        <text></text>
+    </info>
+    <idnumber></idnumber>
+</question>
+<question type="cloze">
+    <name>
+        <text>Problem 120 (data row is 01) de 120 (Peq0,)</text>
+    </name>
+    <questiontext format="html">
+        <text><![CDATA[<p>Considere a seguinte função de distribuição:</p>
+<p>\[
+F(x) = \begin{cases}
+0,        &\text{ se } x &lt; -1 \\
+0.2,      &\text{ se } -1 \le x &lt; 0 \\
+a,        &\text{ se } 0 \le x &lt; 1 \\
+0.6,      &\text{ se } 1 \le x &lt; 3 \\
+1,        &\text{ se } x \ge 3 \\
+\end{cases}
+\]</p>
+<p>Assim,</p>
+<ul>
+<li>a = {:NUMERICAL:%100%0.25:0.005}</li>
+<li>\(P(X=-1)\) = {:NUMERICAL:=0.2}</li>
+<li>\(P(X=0)\) = <strong>0.05</strong></li>
+<li>\(P(X=1)\) = {:NUMERICAL:%100%0.35:0.005}</li>
+<li>\(P(X=2)\) = {:NUMERICAL:=0}</li>
+<li>\(P(X=3)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(X \le 5)\) = {:NUMERICAL:=1}</li>
+<li>\(P(X \ge 2)\) = {:NUMERICAL:=0.4}</li>
+<li>\(P(−0.4 &lt; X &lt; 1.5)\) = {:NUMERICAL:%100%0.4:0.005}</li>
+<li>\(P(0 \le X \le 3)\) = {:NUMERICAL:%100%0.8:0.005}</li>
+</ul>
+<p>\(E[X]\) = {:NUMERICAL:%100%1.35:0.005} e \(V[X]\) = {:NUMERICAL:%100%2.3275:0.005}.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+        <text><![CDATA[
+(No feedback is available. Please consult your class teacher(s).)
+]]></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+</question>
+
+</quiz>
