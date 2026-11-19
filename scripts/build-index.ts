@@ -3,6 +3,7 @@ import { execFileSync } from 'node:child_process';
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { parse as parseYaml } from 'yaml';
 import { parseQuiz } from '../packages/clozelib/src/index';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -36,6 +37,27 @@ function modifiedDate(file: string): string {
   return statSync(file).mtime.toISOString();
 }
 
+/** Optional data/index.yaml: flat map of folder or file paths (relative to data/, `.xml` optional) to friendly names. */
+function loadTitles(): Record<string, string> {
+  const file = join(dataDir, 'index.yaml');
+  const titles: Record<string, string> = {};
+  if (!existsSync(file)) return titles;
+  try {
+    const doc = parseYaml(readFileSync(file, 'utf8'));
+    if (doc && typeof doc === 'object' && !Array.isArray(doc)) {
+      for (const [k, v] of Object.entries(doc)) {
+        if (typeof v === 'string' || typeof v === 'number') {
+          titles[k.replace(/\\/g, '/').replace(/^\/+|\/+$/g, '').replace(/\.xml$/i, '')] = String(v).trim();
+        }
+      }
+    }
+  } catch (err) {
+    console.warn(`ignoring data/index.yaml: ${(err as Error).message}`);
+  }
+  return titles;
+}
+
+const titles = loadTitles();
 const entries: IndexEntry[] = [];
 if (existsSync(dataDir)) {
   for (const file of walk(dataDir)) {
@@ -43,9 +65,10 @@ if (existsSync(dataDir)) {
     const content = readFileSync(file);
     try {
       const quiz = parseQuiz(content.toString('utf8'));
+      const base = rel.replace(/\.xml$/i, '');
       entries.push({
         path: rel,
-        title: rel.replace(/\.xml$/i, '').split('/').pop()!,
+        title: titles[base] || base.split('/').pop()!,
         questions: quiz.questions.length,
         modified: modifiedDate(file),
         hash: createHash('sha256').update(content).digest('hex'),
@@ -58,7 +81,10 @@ if (existsSync(dataDir)) {
 entries.sort((a, b) => a.path.localeCompare(b.path));
 
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, 'index.json'), JSON.stringify({ generated: new Date().toISOString(), exercises: entries }, null, 2));
+writeFileSync(
+  join(outDir, 'index.json'),
+  JSON.stringify({ generated: new Date().toISOString(), titles, exercises: entries }, null, 2),
+);
 rmSync(join(outDir, 'data'), { recursive: true, force: true });
 if (existsSync(dataDir)) cpSync(dataDir, join(outDir, 'data'), { recursive: true });
 console.log(`index.json: ${entries.length} exercise file(s)`);
