@@ -3,3 +3,6 @@ estcap2/s10-va-discreta-generica: V.A. discreta genérica
 estcap2/s20-va-continua-generica: V.A. contínua genérica
 numcap5: Numérica – Capítulo 5
 estcap2/s10-va-discreta-generica/e1000-ex-2-13.xml: Exercício 2.13
+statistics: Statistics
+statistics/anova_table.xml: Tabela de ANOVA
+statistics/mean_variance.xml: mean and variance
